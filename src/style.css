@@ -1,1 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  height: 30rem;
+  width: 20rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+}
+
+.top-suit {
+  display: flex;
+  align-items: center;
+  font-size: 6rem;
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+
+.card-body {
+  display: flex;
+  font-size: 7rem;
+  align-self: center;
+  align-items: center;
+  padding: 0;
+}
+
+.bottom-suit {
+  display: flex;
+  align-items: center;
+  font-size: 6rem;
+  align-self: flex-end;
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
